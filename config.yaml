@@ -79,14 +79,14 @@ monitors:
     linkable: false 
 
   - id: HK-9
-    name: Tencent HK9
+    name: Ali HK9
     url: 'https://ipv4-19.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-10
-    name: Tencent HK10
+    name: Ali HK10
     url: 'https://ipv4-20.hiaoxui.work/'
     method: GET
     expectStatus: 503
@@ -100,7 +100,7 @@ monitors:
     linkable: false 
     
   - id: JP-3
-    name: Oracle Tokyo
+    name: Oracle Tokyo 3
     url: 'https://ipv4-28.hiaoxui.work/'
     method: GET
     expectStatus: 503
