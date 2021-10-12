@@ -14,7 +14,14 @@ settings:
   dayInHistogramOperational: 'All good'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
-monitors:    
+monitors: 
+  - id: Probe
+    name: WallessPKU Probe
+    url: 'https://status.drizz1e.top/'
+    method: GET
+    expectStatus: 401
+    linkable: false 
+    
   - id: Register
     name: WallessPKU Register
     url: 'https://wallesspku.space/register'
@@ -153,11 +160,4 @@ monitors:
     url: 'https://www.191110.xyz/'
     method: GET
     expectStatus: 200
-    linkable: false 
-
-  - id: VirMach-Chicago
-    name: VirMach Chicago
-    url: 'http://virmach.191110.xyz'
-    method: GET
-    expectStatus: 404
     linkable: false 
