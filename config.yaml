@@ -47,7 +47,7 @@ monitors:
     name: Tencent HK4
     url: 'https://ipv4-14.hiaoxui.work/'
     method: GET
-    expectStatus: 503
+    expectStatus: 400
     linkable: false 
 
   - id: HK-5
