@@ -105,6 +105,20 @@ monitors:
     method: GET
     expectStatus: 503
     linkable: false 
+
+  - id: JP-1
+    name: Oracle Tokyo 1
+    url: 'https://ipv4-26.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+    
+  - id: JP-2
+    name: Oracle Tokyo 2
+    url: 'https://ipv4-27.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
     
   - id: JP-3
     name: Oracle Tokyo 3
@@ -113,9 +127,38 @@ monitors:
     expectStatus: 503
     linkable: false 
     
-  - id: bandwagonhost-DC6
-    name: bandwagonhost-DC6
+  - id: KR-1
+    name: Oracle Chuncheon 1
+    url: 'https://ipv4-34.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+    
+  - id: KR-2
+    name: Oracle Chuncheon 2
+    url: 'https://ipv4-35.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+    
+  - id: BandwagonHost-DC6
+    name: BandwagonHost-DC6
     url: 'https://my.191110.xyz/'
     method: GET
     expectStatus: 200
+    linkable: false 
+    
+  - id: BandwagonHost-DC2
+    name: BandwagonHost-DC2
+    url: 'https://www.191110.xyz/'
+    method: GET
+    expectStatus: 200
+    linkable: false 
+
+  - id: VirMach-Chicago
+    name: VirMach Chicago
+    url: 'http://172.245.241.129'
+    method: GET
+    expectStatus: 301
+    followRedirect: false # should fetch follow redirects, default=false
     linkable: false 
