@@ -16,7 +16,7 @@ settings:
 
 monitors:    
   - id: Register
-    name: WallessPku Register
+    name: WallessPKU Register
     url: 'https://wallesspku.space/register'
     method: GET
     expectStatus: 200
