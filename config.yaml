@@ -15,6 +15,13 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:    
+  - id: Register
+    name: WallessPku Register
+    url: 'https://wallesspku.space/register'
+    method: GET
+    expectStatus: 200
+    linkable: false 
+    
   - id: US-0
     name: Olink 9929
     url: 'https://ipv4-0.hiaoxui.work/'
