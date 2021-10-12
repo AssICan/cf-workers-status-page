@@ -160,5 +160,5 @@ monitors:
     url: 'http://172.245.241.129'
     method: GET
     expectStatus: 301
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false 
