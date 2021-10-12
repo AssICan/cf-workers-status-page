@@ -30,70 +30,70 @@ monitors:
     linkable: false 
 
   - id: HK-1
-    name: Tencent HK1
+    name: Tencent HK 1
     url: 'https://ipv4-11.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-2
-    name: Tencent HK2
+    name: Tencent HK 2
     url: 'https://ipv4-12.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-3
-    name: Tencent HK3
+    name: Tencent HK 3
     url: 'https://ipv4-13.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-4
-    name: Tencent HK4
+    name: Tencent HK 4
     url: 'https://ipv4-14.hiaoxui.work/'
     method: GET
     expectStatus: 400
     linkable: false 
 
   - id: HK-5
-    name: Tencent HK5
+    name: Tencent HK 5
     url: 'https://ipv4-15.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-6
-    name: Tencent HK6
+    name: Tencent HK 6
     url: 'https://ipv4-16.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-7
-    name: Tencent HK7
+    name: Tencent HK 7
     url: 'https://ipv4-17.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-8
-    name: Tencent HK8
+    name: Tencent HK 8
     url: 'https://ipv4-18.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-9
-    name: Ali HK9
+    name: Ali HK 9
     url: 'https://ipv4-19.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
 
   - id: HK-10
-    name: Ali HK10
+    name: Ali HK 10
     url: 'https://ipv4-20.hiaoxui.work/'
     method: GET
     expectStatus: 503
@@ -157,8 +157,7 @@ monitors:
 
   - id: VirMach-Chicago
     name: VirMach Chicago
-    url: 'http://172.245.241.129'
+    url: 'http://virmach.191110.xyz'
     method: GET
-    expectStatus: 301
-    followRedirect: true # should fetch follow redirects, default=false
+    expectStatus: 404
     linkable: false 
