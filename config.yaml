@@ -42,4 +42,10 @@ monitors:
     name: Olink 9929
     url: 'https://ipv4-0.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
+    
+  - id: HK-1
+    name: Tencent HK1
+    url: 'https://ipv4-11.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
