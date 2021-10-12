@@ -14,44 +14,101 @@ settings:
   dayInHistogramOperational: 'All good'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
-monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
-    method: GET
-    expectStatus: 200
-    
+monitors:    
   - id: US-0
     name: Olink 9929
     url: 'https://ipv4-0.hiaoxui.work/'
     method: GET
     expectStatus: 403
-    
+    linkable: false 
+
   - id: HK-1
     name: Tencent HK1
     url: 'https://ipv4-11.hiaoxui.work/'
     method: GET
     expectStatus: 503
+    linkable: false 
 
+  - id: HK-2
+    name: Tencent HK2
+    url: 'https://ipv4-12.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-3
+    name: Tencent HK3
+    url: 'https://ipv4-13.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-4
+    name: Tencent HK4
+    url: 'https://ipv4-14.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-5
+    name: Tencent HK5
+    url: 'https://ipv4-15.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-6
+    name: Tencent HK6
+    url: 'https://ipv4-16.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-7
+    name: Tencent HK7
+    url: 'https://ipv4-17.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-8
+    name: Tencent HK8
+    url: 'https://ipv4-18.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-9
+    name: Tencent HK9
+    url: 'https://ipv4-19.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-10
+    name: Tencent HK10
+    url: 'https://ipv4-20.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+    
+  - id: HK-11
+    name: Azure HK
+    url: 'https://ipv4-21.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+    
+  - id: JP-3
+    name: Oracle Tokyo
+    url: 'https://ipv4-28.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+    
   - id: bandwagonhost-DC6
     name: bandwagonhost-DC6
     url: 'https://my.191110.xyz/'
     method: GET
     expectStatus: 200
+    linkable: false 
