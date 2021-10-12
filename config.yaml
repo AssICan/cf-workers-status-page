@@ -49,3 +49,9 @@ monitors:
     url: 'https://ipv4-11.hiaoxui.work/'
     method: GET
     expectStatus: 503
+
+  - id: bandwagonhost-DC6
+    name: bandwagonhost-DC6
+    url: 'https://my.191110.xyz/'
+    method: GET
+    expectStatus: 200
