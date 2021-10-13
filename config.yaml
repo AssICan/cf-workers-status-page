@@ -39,7 +39,7 @@ monitors:
     linkable: false 
 
   - id: US-3
-    name: XXMHOST CN2 GIA LAX
+    name: XXMHost LAX CN2 GIA 
     description: '100Mbps' 
     url: 'https://ipv4-03.hiaoxui.work/'
     method: GET
