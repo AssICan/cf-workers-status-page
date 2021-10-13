@@ -31,7 +31,7 @@ monitors:
     linkable: true 
     
   - id: US-0
-    name: Olink 9929
+    name: Olink 9929 US 0
     description: '100Mbps Sponsored by Olink Cloud' 
     url: 'https://ipv4-0.hiaoxui.work/'
     method: GET
@@ -39,7 +39,7 @@ monitors:
     linkable: false 
 
   - id: US-3
-    name: XXMHost LAX CN2 GIA 
+    name: XXMHost LAX CN2 GIA US 3
     description: '100Mbps' 
     url: 'https://ipv4-03.hiaoxui.work/'
     method: GET
@@ -47,7 +47,7 @@ monitors:
     linkable: false
     
   - id: US-9
-    name: BandwagonHost-DC2
+    name: BandwagonHost-DC2 US 9
     description: '1Gbps' 
     url: 'https://ipv4-09.hiaoxui.work/'
     method: GET
@@ -119,7 +119,7 @@ monitors:
     linkable: false 
 
   - id: HK-9
-    name: Ali HK 9
+    name: Alibaba HK 9
     description: '30Mbps' 
     url: 'https://ipv4-19.hiaoxui.work/'
     method: GET
@@ -127,7 +127,7 @@ monitors:
     linkable: false 
 
   - id: HK-10
-    name: Ali HK 10
+    name: Alibaba HK 10
     description: '30Mbps' 
     url: 'https://ipv4-20.hiaoxui.work/'
     method: GET
@@ -135,7 +135,7 @@ monitors:
     linkable: false 
     
   - id: HK-11
-    name: Azure HK
+    name: Azure HK 11
     description: '1Gbps' 
     url: 'https://ipv4-21.hiaoxui.work/'
     method: GET
