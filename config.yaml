@@ -142,6 +142,14 @@ monitors:
     expectStatus: 503
     linkable: false 
 
+  - id: HK-12
+    name: DMIT HK LITE 12
+    description: '1Gbps' 
+    url: 'https://ipv4-22.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+    
   - id: JP-1
     name: Oracle Tokyo 1
     description: '50Mbps' 
@@ -181,11 +189,3 @@ monitors:
     method: GET
     expectStatus: 503
     linkable: false 
-    
-  - id: TEST-DMIT
-    name: DMIT HK LITE
-    description: '1Gbps' 
-    url: 'http://w135.gubo.org/'
-    method: GET
-    expectStatus: 200
-    linkable: True
