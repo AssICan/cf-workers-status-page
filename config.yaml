@@ -1,5 +1,5 @@
 settings:
-  title: 'WallessPKU Status Page'
+  title: 'WallessPKU Status'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 30 # number of days you want to display in histogram
@@ -182,3 +182,10 @@ monitors:
     expectStatus: 503
     linkable: false 
     
+  - id: TEST-DMIT
+    name: DMIT HK LITE
+    description: '1Gbps' 
+    url: 'http://w135.gubo.org/'
+    method: GET
+    expectStatus: 200
+    linkable: True
