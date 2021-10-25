@@ -33,159 +33,159 @@ monitors:
   - id: US-0
     name: Olink 9929 US 0
     description: '100Mbps Sponsored by Olink Cloud' 
-    url: 'http://virmach.191110.xyz/0.html'
+    url: 'https://ipv4-0.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
     linkable: false 
 
   - id: US-3
     name: XXMHost LAX CN2 GIA US 3
     description: '100Mbps' 
-    url: 'http://virmach.191110.xyz/03.html'
+    url: 'https://ipv4-03.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false
     
   - id: US-9
     name: BandwagonHost-DC2 US 9
     description: '1Gbps' 
-    url: 'http://virmach.191110.xyz/09.html'
+    url: 'https://ipv4-09.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false
     
   - id: HK-1
     name: Tencent HK 1
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/11.html'
+    url: 'https://ipv4-11.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-2
     name: Tencent HK 2
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/12.html'
+    url: 'https://ipv4-12.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-3
     name: Tencent HK 3
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/13.html'
+    url: 'https://ipv4-13.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-4
     name: Tencent HK 4
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/14.html'
+    url: 'https://ipv4-14.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 400
     linkable: false 
 
   - id: HK-5
     name: Tencent HK 5
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/15.html'
+    url: 'https://ipv4-15.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-6
     name: Tencent HK 6
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/16.html'
+    url: 'https://ipv4-16.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-7
     name: Tencent HK 7
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/17.html'
+    url: 'https://ipv4-17.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-8
     name: Tencent HK 8
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/18.html'
+    url: 'https://ipv4-18.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-9
     name: Alibaba HK 9
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/19.html'
+    url: 'https://ipv4-19.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-10
     name: Alibaba HK 10
     description: '30Mbps' 
-    url: 'http://virmach.191110.xyz/20.html'
+    url: 'https://ipv4-20.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
     
   - id: HK-11
     name: Azure HK 11
     description: '1Gbps' 
-    url: 'http://virmach.191110.xyz/21.html'
+    url: 'https://ipv4-21.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
 
   - id: HK-12
     name: DMIT HK LITE 12
     description: '1Gbps' 
-    url: 'http://virmach.191110.xyz/22.html'
+    url: 'https://ipv4-22.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
     
   - id: JP-1
     name: Oracle Tokyo 1
     description: '50Mbps' 
-    url: 'http://virmach.191110.xyz/26.html'
+    url: 'https://ipv4-26.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
     
   - id: JP-2
     name: Oracle Tokyo 2
     description: '50Mbps' 
-    url: 'http://virmach.191110.xyz/27.html'
+    url: 'https://ipv4-27.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
     
   - id: JP-3
     name: Oracle Tokyo 3
     description: '0.5Gbps' 
-    url: 'http://virmach.191110.xyz/28.html'
+    url: 'https://ipv4-28.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
     
   - id: KR-1
     name: Oracle Chuncheon 1
     description: '50Mbps' 
-    url: 'http://virmach.191110.xyz/34.html'
+    url: 'https://ipv4-34.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
     
   - id: KR-2
     name: Oracle Chuncheon 2
     description: '50Mbps' 
-    url: 'http://virmach.191110.xyz/35.html'
+    url: 'https://ipv4-35.hiaoxui.work/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503
     linkable: false 
