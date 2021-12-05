@@ -33,31 +33,49 @@ monitors:
   - id: US-0
     name: Olink 9929 US 0
     description: '100Mbps Sponsored by Olink Cloud' 
-    url: 'https://ipv4-0.hiaoxui.work/'
+    url: 'https://v4-0.hiaoxui.work/'
     method: GET
     expectStatus: 403
     linkable: false 
 
-  - id: US-3
-    name: XXMHost LAX CN2 GIA US 3
-    description: '100Mbps' 
-    url: 'https://ipv4-03.hiaoxui.work/'
+  - id: US-1
+    name: Oracle Ashburn US 1
+    description: '50Mbps' 
+    url: 'https://v4-31.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false
-    
-  - id: US-9
-    name: BandwagonHost-DC2 US 9
+	
+  - id: HK-A
+    name: Azure HK A
     description: '1Gbps' 
-    url: 'https://ipv4-09.hiaoxui.work/'
+    url: 'https://v4-3.hiaoxui.work/'
     method: GET
     expectStatus: 503
-    linkable: false
-    
+    linkable: false 
+	
+
+  - id: HK-0
+    name: ICABLE HK 0
+    description: '200Mbps' 
+    url: 'https://v4-1.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+	
   - id: HK-1
     name: Tencent HK 1
     description: '30Mbps' 
-    url: 'https://ipv4-11.hiaoxui.work/'
+    url: 'https://v4-11.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: HK-1
+    name: Tencent HK 1
+    description: '30Mbps' 
+    url: 'https://v4-11.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -65,7 +83,7 @@ monitors:
   - id: HK-2
     name: Tencent HK 2
     description: '30Mbps' 
-    url: 'https://ipv4-12.hiaoxui.work/'
+    url: 'https://v4-12.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -73,7 +91,7 @@ monitors:
   - id: HK-3
     name: Tencent HK 3
     description: '30Mbps' 
-    url: 'https://ipv4-13.hiaoxui.work/'
+    url: 'https://v4-13.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -81,7 +99,7 @@ monitors:
   - id: HK-4
     name: Tencent HK 4
     description: '30Mbps' 
-    url: 'https://ipv4-14.hiaoxui.work/'
+    url: 'https://v4-14.hiaoxui.work/'
     method: GET
     expectStatus: 400
     linkable: false 
@@ -89,7 +107,7 @@ monitors:
   - id: HK-5
     name: Tencent HK 5
     description: '30Mbps' 
-    url: 'https://ipv4-15.hiaoxui.work/'
+    url: 'https://v4-15.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -97,7 +115,7 @@ monitors:
   - id: HK-6
     name: Tencent HK 6
     description: '30Mbps' 
-    url: 'https://ipv4-16.hiaoxui.work/'
+    url: 'https://v4-16.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -105,7 +123,7 @@ monitors:
   - id: HK-7
     name: Tencent HK 7
     description: '30Mbps' 
-    url: 'https://ipv4-17.hiaoxui.work/'
+    url: 'https://v4-17.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -113,7 +131,7 @@ monitors:
   - id: HK-8
     name: Tencent HK 8
     description: '30Mbps' 
-    url: 'https://ipv4-18.hiaoxui.work/'
+    url: 'https://v4-18.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -121,7 +139,7 @@ monitors:
   - id: HK-9
     name: Alibaba HK 9
     description: '30Mbps' 
-    url: 'https://ipv4-19.hiaoxui.work/'
+    url: 'https://v4-19.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -129,23 +147,16 @@ monitors:
   - id: HK-10
     name: Alibaba HK 10
     description: '30Mbps' 
-    url: 'https://ipv4-20.hiaoxui.work/'
+    url: 'https://v4-20.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
     
-  - id: HK-11
-    name: Azure HK 11
-    description: '1Gbps' 
-    url: 'https://ipv4-21.hiaoxui.work/'
-    method: GET
-    expectStatus: 503
-    linkable: false 
 
-  - id: HK-12
-    name: DMIT HK LITE 12
-    description: '1Gbps' 
-    url: 'https://ipv4-22.hiaoxui.work/'
+  - id: JP-0
+    name: Oracle Tokyo 0
+    description: '0.5Gbps' 
+    url: 'https://v4-2.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -153,7 +164,7 @@ monitors:
   - id: JP-1
     name: Oracle Tokyo 1
     description: '50Mbps' 
-    url: 'https://ipv4-26.hiaoxui.work/'
+    url: 'https://v4-26.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -161,23 +172,16 @@ monitors:
   - id: JP-2
     name: Oracle Tokyo 2
     description: '50Mbps' 
-    url: 'https://ipv4-27.hiaoxui.work/'
+    url: 'https://v4-27.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
     
-  - id: JP-3
-    name: Oracle Tokyo 3
-    description: '0.5Gbps' 
-    url: 'https://ipv4-28.hiaoxui.work/'
-    method: GET
-    expectStatus: 503
-    linkable: false 
     
   - id: KR-1
     name: Oracle Chuncheon 1
     description: '50Mbps' 
-    url: 'https://ipv4-34.hiaoxui.work/'
+    url: 'https://v4-34.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -185,7 +189,15 @@ monitors:
   - id: KR-2
     name: Oracle Chuncheon 2
     description: '50Mbps' 
-    url: 'https://ipv4-35.hiaoxui.work/'
+    url: 'https://v4-35.hiaoxui.work/'
+    method: GET
+    expectStatus: 503
+    linkable: false 
+
+  - id: AU-1
+    name: Oracle Sydney 2
+    description: '50Mbps' 
+    url: 'https://v4-37.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
