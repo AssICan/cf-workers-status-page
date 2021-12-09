@@ -54,20 +54,10 @@ monitors:
     expectStatus: 503
     linkable: false 
 	
-
   - id: HK-0
     name: ICABLE HK 0
     description: '200Mbps' 
     url: 'https://v4-1.hiaoxui.work/'
-    method: GET
-    expectStatus: 503
-    linkable: false 
-
-	
-  - id: HK-1
-    name: Tencent HK 1
-    description: '30Mbps' 
-    url: 'https://v4-11.hiaoxui.work/'
     method: GET
     expectStatus: 503
     linkable: false 
@@ -152,7 +142,6 @@ monitors:
     expectStatus: 503
     linkable: false 
     
-
   - id: JP-0
     name: Oracle Tokyo 0
     description: '0.5Gbps' 
@@ -176,7 +165,6 @@ monitors:
     method: GET
     expectStatus: 503
     linkable: false 
-    
     
   - id: KR-1
     name: Oracle Chuncheon 1
